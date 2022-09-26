@@ -9,7 +9,7 @@ const Product = ({ product, handler }) => {
     <div className="product-container">
       <img src={img} alt="product" />
       <div className="product-info">
-        <p className="product-title">Product name: {name}</p>
+        <h2 className="product-title">{name}</h2>
         <p>Price: ${price}</p>
         <p>
           <small>Manufacturer: {seller}</small>
