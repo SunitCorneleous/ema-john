@@ -1,0 +1,14 @@
+.cart {
+  position: sticky;
+  top: 0;
+
+  padding: 30px;
+
+  font-size: 1.2rem;
+}
+
+.cart h4 {
+  padding: 0 25px 15px;
+
+  font-size: 1.5rem;
+}
