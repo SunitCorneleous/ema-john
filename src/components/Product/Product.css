@@ -38,5 +38,9 @@
 }
 
 .btn-cart:hover {
-  background: #fac26d;
+  background: #f9aa34;
+}
+
+.icon {
+  margin-left: 10px;
 }
