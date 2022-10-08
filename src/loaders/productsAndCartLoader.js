@@ -18,7 +18,5 @@ export const productsAndCartLoader = async () => {
     }
   }
 
-  console.log(storedCart);
-
   return { products, storedCart };
 };
