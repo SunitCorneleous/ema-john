@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import Cart from "../Cart/Cart";
 import ReviewItem from "../ReviewItem/ReviewItem";
 
 const Order = () => {
-  const { products, storedCart: cart } = useLoaderData();
+  const { products, storedCart } = useLoaderData();
+  const [cart, setCart] = useState(storedCart);
 
   return (
     <div className="shop-container">

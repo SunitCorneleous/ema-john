@@ -17,7 +17,6 @@ function App() {
         {
           path: "/shop",
           element: <Shop></Shop>,
-          loader: () => fetch("products.json"),
         },
         {
           path: "/order",
@@ -31,6 +30,7 @@ function App() {
     {
       path: "/about",
       element: <About></About>,
+      loader: () => fetch("products.json"),
     },
   ]);
   return (
