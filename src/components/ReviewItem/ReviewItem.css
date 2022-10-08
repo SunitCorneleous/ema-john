@@ -4,7 +4,7 @@
   max-width: 771px;
   margin: 25px auto;
   padding: 8px;
-  border: 1px solid #000000;
+  border: 1px solid #aaa8a8;
   border-radius: 8px;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .review-item-image img {
-  width: 111px;
+  width: 91px;
 }
 
 .review-item-details {
@@ -38,8 +38,11 @@ p {
   height: 55px;
   border-radius: 50%;
   border: none;
-  background-color: #eb57574d;
+  background-color: rgba(235, 86, 86, 0.302);
   cursor: pointer;
+}
+.delete-button:hover {
+  background-color: rgba(235, 86, 86, 0.502);
 }
 
 .delete-icon {
