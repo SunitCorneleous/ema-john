@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Order.css";
 import { useLoaderData } from "react-router-dom";
 import { removeFromDb } from "../../utilities/fakedb";
 import Cart from "../Cart/Cart";
