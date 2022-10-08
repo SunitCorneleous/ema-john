@@ -76,7 +76,12 @@ const Shop = () => {
 
       {/* cart */}
       <div className="cart-container">
-        <Cart cart={cart} clearCart={HandleClearCart}></Cart>
+        <Cart cart={cart} clearCart={HandleClearCart}>
+          <Link to="/order">
+            <br />
+            <button>Review Order</button>
+          </Link>
+        </Cart>
       </div>
     </div>
   );
